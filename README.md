@@ -32,7 +32,7 @@ Frameworks Wordpress Usado
 [Ver essa documentação em Português do Brasil](https://github.com/wpbrasil/odin/blob/master/docs/README-pt_BR.md)
 Para ajudar no desenvolvimento ágil de temas para o WordPress.
 
-![Pacto Administradora](https://github.com/wemersonnino/PactoNet/blob/dcd64e3eba39d3f2669361666cafd2828d8f4bf3/assets/images/Wireframe-Pacto-Administradora-Home.jpg?raw=true)
+![Pacto Administradora](https://mir-cdn.behance.net/v1/rendition/project_modules/1400/13755a56330635.5a78a09f94ed0.jpg)
 
 ## Plugins Support ##
 
