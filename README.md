@@ -34,6 +34,18 @@ Para ajudar no desenvolvimento ágil de temas para o WordPress.
 
 ![Pacto Administradora](https://mir-cdn.behance.net/v1/rendition/project_modules/1400/13755a56330635.5a78a09f94ed0.jpg)
 
+### Plugins Aplicados no Theme###
+
+* [Elementor](https://elementor.com) - Usando as classes css pode se gerenciar a pagina com o tema geometrico
+* [Ninja Forms](https://ninjaforms.com/) - Usado para gerir os formularios da pagina
+* [Recent Posts Widget With Thumbnails](https://br.wordpress.org/plugins/recent-posts-widget-with-thumbnails/) - Usado para apresentar Thumbnails dos posts recentes
+* [Responsive Column Widgets](https://br.wordpress.org/plugins/responsive-column-widgets/) - usado para ajustar o nav footer menu conforme layout, pode se gerir 3 colum
+* [Slider WD](https://br.wordpress.org/plugins/smart-slider-3/) Pode se aplicar este ou...
+* [Smart Slider 3](https://br.wordpress.org/plugins/smart-slider-3/) Pode se aplicar este
+* [SVG Support](https://br.wordpress.org/plugins/svg-support/) - usado para comportar as imagens svg
+* [WP News and Scrolling Widgets](https://br.wordpress.org/plugins/sp-news-and-widget/) - Para gerir as news da page
+* [WP Post Template](https://br.wordpress.org/plugins/wp-custom-post-template/) - usei para separ as news dos posts do blog
+
 ## Plugins Support ##
 
 Odin supports natively these plugins:
