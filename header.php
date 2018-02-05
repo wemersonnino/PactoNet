@@ -90,7 +90,7 @@
                                                         <form action="" method="post" id="formAcessOnline" data-toggle="validator" role="form">
                                                             <div class="col-md-12 col-sm-12">
                                                                 <div class="form-group">
-                                                                    <input type="text" class="form-control" id="usernameAcessOnLine" name="username" placeholder="Seu e-mail" required>
+                                                                    <input type="text" class="form-control" id="usernameAcessOnLine" name="username" placeholder="Identificador" onfocus="" required>
                                                                 </div>
                                                                 <div class="form-group">
                                                                     <input type="password" class="form-control" id="inputSenhaAcessOnLine" name="Password" placeholder="Senha" data-error="Por favor, insira a senha correta." required>

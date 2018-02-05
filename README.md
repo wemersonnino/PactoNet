@@ -5,9 +5,9 @@ Criar um tema único é que não tenha no mercado que contenha a identidade do P
 
 ## Sobre o desenvolvedor ##
 
-* [Wemerson Nino] (https://github.com/wemersonnino)
-* [Wemerson Nino Twitter] (@wemersonnino)
-* [Wemerson Nino Portfólio] (https://www.behance.net/Wemerson)
+* [Wemerson Nino](https://github.com/wemersonnino)
+* [Wemerson Nino Twitter](@wemersonnino)
+* [Wemerson Nino Portfólio](https://www.behance.net/Wemerson)
 
 Programas usados para desenvolvimento do layout até a aprovação do mesmo.
 
@@ -32,28 +32,7 @@ Frameworks Wordpress Usado
 [Ver essa documentação em Português do Brasil](https://github.com/wpbrasil/odin/blob/master/docs/README-pt_BR.md)
 Para ajudar no desenvolvimento ágil de temas para o WordPress.
 
-![Odin Framework](https://i.imgur.com/DdeMgUx.png)
-
-* [Website](http://wpod.in/)
-* [Odin Expo](http://expo.wpod.in/)
-* [GitHub](https://github.com/wpbrasil/odin)
-* [WordPress Brasil Group on Facebook](https://www.facebook.com/groups/wordpress.brasil)
-
-## Descrição do Projeto ##
-
-Criação de um tema desafiador para o novo site da [Pacto Administradora] (http://pactonet.com.br/)
-
-Para isso foi usado [Odin Framework] (http://wpod.in/) para ajudar no desenvolvimento ágil de temas para o WordPress.
-
-Bem-vindo ao Odin, um tema base desenvolvido por [WordPress Brasil Group](https://www.facebook.com/groups/wordpress.brasil), to help on agile development of themes for WordPress.
-
-## Installation ##
-
-Send the folder "odin" to the default themes folder from WordPress `wp-content/themes` or send the zipball using the WordPress Theme Installer.
-
-## Documentation ##
-
-Informations about how-to use the classes and functions from Odin is on the [Official Wiki](https://github.com/wpbrasil/odin/wiki/)
+![Pacto Administradora](https://drive.google.com/file/d/1ee3iDLkVPMiq6U-I2NxvLjmwIseSexmU/preview)
 
 ## Plugins Support ##
 
@@ -76,32 +55,9 @@ Odin supports natively these plugins:
 * [goqr.me](http://goqr.me/)
 * [Google Maps](https://developers.google.com/maps/)
 
-## Bugs and Sugestions ##
 
-The Odin Framework is an **Open Source** project. Anyone can (and should) help us to improve it.
+## 2018 - Wemerson Nino. ## 
 
-Report bugs or do suggestions using the [Issues/Project Forum](https://github.com/wpbrasil/odin/issues)
-
-## Contribute to the Project ##
-
-To contribute, just click on the **Fork** button, create a *Branch*, improve the code and send it with a **Pull Request**.
-
-More details about how to contribute and send Pull Requests in [GitHub Collaborating](https://help.github.com/categories/63/articles).
-
-[How to colaborate to opensource projects on GitHub](http://www.youtube.com/watch?v=H3olaBo83As)
-
-## Changelog ##
-
-[Changelog here!](https://github.com/wpbrasil/odin/blob/master/docs/CHANGELOG.md)
-
-
-
-
-
-
-## Copyright and License ##
-
-Copyright 2013 - 2016 - WordPress Brasil Group.
 
 The PHP code is licensed with [GPLv2](http://www.gnu.org/licenses/gpl-2.0.txt).
 All the CSS, SCSS, JS, images files and others, not including the PHP files is licensed with [MIT](http://opensource.org/licenses/MIT) or by the license specified inside the file.
