@@ -5,9 +5,9 @@ Criar um tema único é que não tenha no mercado que contenha a identidade do P
 
 ## Sobre o desenvolvedor ##
 
-* [Wemerson Nino] (https://github.com/wemersonnino)
-* [Wemerson Nino Twitter] (@wemersonnino)
-* [Wemerson Nino Portfólio] (https://www.behance.net/Wemerson)
+* [Wemerson Nino](https://github.com/wemersonnino)
+* [Wemerson Nino Twitter](@wemersonnino)
+* [Wemerson Nino Portfólio](https://www.behance.net/Wemerson)
 
 Programas usados para desenvolvimento do layout até a aprovação do mesmo.
 
@@ -56,8 +56,8 @@ Odin supports natively these plugins:
 * [Google Maps](https://developers.google.com/maps/)
 
 
+## 2018 - Wemerson Nino. ## 
 
-## 2018 - Wemerson Nino. ##
 
 The PHP code is licensed with [GPLv2](http://www.gnu.org/licenses/gpl-2.0.txt).
 All the CSS, SCSS, JS, images files and others, not including the PHP files is licensed with [MIT](http://opensource.org/licenses/MIT) or by the license specified inside the file.
