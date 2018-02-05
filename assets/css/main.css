@@ -1,0 +1,1460 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wow:first-child {
+    visibility: hidden;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            Nav Menu
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top,#fff 0,#FFFFFF 100%);
+    background-image: -o-linear-gradient(top,#fff 0,#FFFFFF 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#FFFFFF));
+    background-image: linear-gradient(to bottom,#fff 0,#FFFFFF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#FFFFFF', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #333333;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #DF3237;
+    background-color: transparent;
+}
+/*.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a {
+    background: -moz-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%); FF3.6+ 
+    background: -webkit-gradient(linear, 180deg, color-stop(10%, FFFFFF), color-stop(59%, E5E5E5)); Chrome,Safari4+ 
+    background: -webkit-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%); Chrome10+,Safari5.1+ 
+    background: -o-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%); Opera 11.10+ 
+    background: -ms-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%); IE10+ 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1');  for IE 
+    background: linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%); W3C 
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.25);
+    box-shadow: inset 0 3px 9px rgba(0,0,0,.25);
+}*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #000;
+    /*    background-color: #080808;*/
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #fff;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-brand {
+    float: left;
+    height: auto;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 1rem auto;
+}
+
+.dropdown-toggle{
+    color: white !important;
+}
+
+.acessOnline{
+    background-color: #DF3237 !important;
+    color: white;
+    font-weight: 400;
+    border-radius: 20px;
+    font-size: 0.8em;
+    padding: 0.2rem;
+    margin: 1rem auto;
+}
+
+#navMenu{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.nav-pills{padding: 0 10rem 0 10rem;}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 0;
+    padding: 9px 10px;
+    margin-top: -50px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 4px;
+}
+
+#menu-footer_nav{
+    float: left;
+    list-style: none;
+    width:  100%;
+}
+.menu-item{
+    padding: 0rem;
+}
+ul#menu-footer_nav{
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+}
+#menu-footer_nav.teste > li{
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    height: auto;
+    display: inline;
+}
+ul#menu-footer_nav> li{
+    display: inline;
+}
+ul#menu-footer_nav> li a{
+    padding: 2px 0.5rem 1rem;
+    display: inline-block;
+    text-align: center;
+}
+
+#main-navigation{
+    margin: 1rem auto;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Nav Menu
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            Slide banner
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.jumbotron {
+    padding: 0;
+    margin: -5rem auto;
+    color: inherit;
+    /*background-color: #eee;*/
+    background-image: url(../img/4c4fb155721991.5990a799191c5.jpg);
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(100% 0, 100% 75%, 30% 90%, 0 75%, 0 0);
+    clip-path: polygon(100% 0, 100% 75%, 30% 90%, 0 75%, 0 0);
+    height: auto;
+    overflow: hidden;
+}
+
+#btnBannerSlid{
+    color: #fff;
+    background: -moz-linear-gradient(1deg, #4271A1 0, #284B80 59%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 1deg, color-stop(0, 4271A1), color-stop(59%, 284B80));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(1deg, #4271A1 0, #284B80 59%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(1deg, #4271A1 0, #284B80 59%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(1deg, #4271A1 0, #284B80 59%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(1deg, #4271A1 0, #284B80 59%);/* W3C */
+    padding: 2rem;
+    border: 2px solid #fff;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Slide banner
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.imgSlide{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.carousel-control {
+    height: 62rem;
+}
+
+.carousel-caption {
+    margin: 15% auto;
+}
+.carousel-caption > h2 > p{
+    color: white;
+    font-weight: 700 !important;
+}/* parametros fonte do slide */
+
+/*div.btnPropo{
+    -webkit-transition: width 2s;  For Safari 3.1 to 6.0 
+    transition: width 2s;
+}
+div.btnPropo:hover,div#btnPropo:active,div#btnPropo:after{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1rem;
+}*/
+
+a.buttonProp{
+    line-height: 3em;
+    border: 2px solid white;
+    /*    width: 100%;*/
+    font-size: 100%;
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            Style Main
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+.ft2{font-size: 1.2em;}
+.ft3{font-size: 3em;}
+.ft4{font-size: 4em;}
+.ft5{font-size: 5em;}
+.clBlack{color: black !important;}
+.clWhite{color: white;}
+.clBlue{color: #245580;}
+.clRed{color: #EB3237;}
+.clSilver{color: #666666;}
+
+.fB{font-weight: 700;}
+.fR{font-weight: 400;}
+
+
+/* jssor slider loading skin spin css */
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.jssorb032 {position:absolute;}
+.jssorb032 .i {position:absolute;cursor:pointer;}
+.jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
+.jssorb032 .i:hover .b {fill:#000;fill-opacity:.6;stroke:#fff;stroke-opacity:.35;}
+.jssorb032 .iav .b {fill:#000;fill-opacity:1;stroke:#fff;stroke-opacity:.35;}
+.jssorb032 .i.idn {opacity:.3;}
+
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+
+div.espaceBox{
+    display: none;
+}
+div.boxImagHome{
+    width: 100%;
+    height: auto;
+    background-color: #284B8C;
+    padding: 2rem;
+    /*     padding: 2rem;
+            margin: 0;
+        position: relative;
+        overflow: hidden;*/
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.interne{
+    text-align: center;
+    color: white;
+    margin: 1.5rem;
+}
+figure > img.iconSHome{
+    margin: 0 1.5rem auto;
+}
+figure > img.iconSHomeComer{
+    margin: 0 2.5rem auto;
+}
+
+
+
+
+.box01SubImg{
+
+    padding: 11rem 0;
+    color: #fff;   
+}
+.box01SubImgAlig{
+    margin-right: -9%;
+}
+.box01SubImg.bgBoxImgResid{
+    background-image: url(../img/imgResidencial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+}
+.box01SubImg.bgBoxImgComer{
+    background-image: url(../img/imgComercial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+}
+.box01SubImg.bgBoxImgAssoc{
+    background-image: url(../img/imgAssosiacao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+}
+
+.iconBoxes{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 2.7rem;
+}
+
+#box01{
+    background: -moz-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 180deg, color-stop(10%, FFFFFF), color-stop(59%, E5E5E5));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* W3C */
+    padding: 0 0 10rem 0;
+    width: 100%;
+    height: auto;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+    margin: 0 0 -8rem 0;
+}
+
+/*Style Depoimentos*/
+#depoe{
+    background-color: #284B8C;
+    width: 100%;
+    height: auto;
+    padding: 10rem 0 10rem 0;
+    color: white;
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+}
+
+div#titleAPactoDiv{
+    margin-bottom: -2rem;
+}
+#titleAPactoSmall{
+    color: #284B80;
+    font-weight: 400;
+    margin-bottom: -1rem;
+}
+
+.acessOnlineBtn{
+    margin: 0.9rem auto;
+}
+
+#acessoOnLine{
+    background: -moz-linear-gradient(180deg, #EB3237 10%, #EB3237 59%);
+    background: -webkit-gradient(linear, 180deg, color-stop(10%, #EB3237), color-stop(59%, #EB3237));
+    background: -webkit-linear-gradient(180deg, #EB3237 10%, #EB3237 59%);
+    background: -o-linear-gradient(180deg, #EB3237 10%, #EB3237 59%);
+    background: -ms-linear-gradient(180deg, #EB3237 10%, #EB3237 59%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EB3237', endColorstr='#EB3237', GradientType='1');
+    background: linear-gradient(180deg, #EB3237 10%, #EB3237 59%);
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,.25);
+    box-shadow: inset 0 3px 9px rgba(0,0,0,.25);
+    border-radius: 14px;
+    font-size: 0.875em;
+    padding: 0.3rem;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px -7rem 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #EB3237;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+#usernameAcessOnLine{
+    margin: 1rem auto;
+}
+#submit{
+    width: 100%;
+    margin: 1rem auto;
+}
+.navbar-nav>li>.dropdown-menu#boxAcess {
+    border-radius: 30px;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            Style Quem Somos
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+#titleAbout{
+    color: #EB3237;
+    font-weight: 700;
+}
+
+.boxAboutTwo{
+    right: 3rem;
+}
+.boxAboutThree{
+    right: 2rem;
+    margin: 0 -2.1rem auto;
+    width: 100%;
+}
+
+#imgAboutOne{
+    width: 116%;
+    height: auto;
+    margin: 0rem 1rem auto;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+#imgAboutOne img{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-position: top center;
+}
+.imgAboutTwo{
+    width: 100%;
+    height: auto;
+    float: left;
+    left: 1rem;
+    -webkit-clip-path: polygon(15% 0, 93% 0, 75% 100%, 0% 100%);
+    clip-path: polygon(15% 0, 93% 0, 75% 100%, 0% 100%);
+}
+.imgAboutTwo img{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-position: top center;
+}
+
+#textUnit{
+    padding-bottom: 10rem;
+}
+
+.slick-slide img {
+    webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+        Style Textos Politicas Pacto
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+a.politicBtn{
+    width: 170px;
+    height: 170px;
+    padding: 6.2rem;
+    margin: 1.5rem;
+    background-color: #284B82;
+    color: white;
+    text-align: center;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+/*parametros li btn Toggable tabs*/
+.nav-tabs>li {
+    float: none;
+    margin-bottom: -1px;
+}
+.nav-tabs>li.active>a.boxPoliticsPacto, .nav-tabs>li.active>a.boxPoliticsPacto:hover, .nav-tabs>li.active>a.boxPoliticsPacto:focus {
+    color: #fff;
+    cursor: default;
+    background-color: #EB3237;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    border-spacing: 1rem;
+    /*    -webkit-animation: rubberBand 1s;
+        animation: rubberBand 1s;*/
+
+}
+
+.nav-tabs>li>a>strong {
+    line-height: 9.428571;
+}
+
+li.boxPoliticsPacto{
+    float: right;
+    margin-top: -8rem;
+    margin-right: 9rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.politicBtn strong{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+
+}
+
+.nav>li>a.boxPoliticsPacto:hover, .nav>li>a.boxPoliticsPacto:focus {
+    text-decoration: none;
+    background-color: #EB3237;
+    border-radius: 100%;
+    border: silver 6px solid;
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Photos Unidade
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+#unidTitle{
+    color:#EB3237;
+    font-weight: 700;
+}
+
+.nav-tabs>li.unidPhotosBtn {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.nav-tabs>li>a.borderUnidPhoto {
+    line-height: 2.428571;
+}
+
+.nav-tabs>li.active>a.borderUnidPhoto, .nav-tabs>li.active>a.borderUnidPhoto:hover, .nav-tabs>li.active>a.borderUnidPhoto:focus {
+    color: #284B80;
+    cursor: default;
+    background-color: transparent;
+    border-top: 1px solid #1B1464;
+    border-bottom: 1px solid #1B1464;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #1B1464;
+    border-spacing: 0px;
+}
+
+
+.carousel-control {
+    padding-top:10%;
+    width:5%;
+}
+
+img.boxUnidPhoto{
+    width: 100%;
+    height: 248px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.thumbnail, .img-thumbnail {
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.0);
+    box-shadow: 0 1px 2px rgba(0,0,0,.0);
+}
+.thumbnail {
+    background-color: transparent; 
+    border: none; 
+    border-radius: 4px; 
+    margin-bottom: 0;
+}
+
+.carousel-control.left {
+    height: auto;
+}
+.carousel-control.right {
+    height: auto;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            Style Serviços
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+#services{
+    width: 100%;
+    height: auto;
+    background: -moz-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 180deg, color-stop(10%, FFFFFF), color-stop(59%, E5E5E5));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(180deg, #FFFFFF 10%, #E5E5E5 59%);/* W3C */
+}
+#titlePgService{
+    color: #EB3237;
+    font-weight: 700;
+}
+#boxIconServices{
+    margin: 1.5rem auto 2rem auto;
+    padding-bottom: 1rem;
+}
+
+.iconBoxService{
+    color: white;
+    width: 180px;
+    height: 180px;
+    padding: 0;
+    margin: 0 auto 3rem auto;
+    text-align: center;
+    background: -moz-linear-gradient(180deg, #284B80 10%, #4271A1 59%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 180deg, color-stop(10%, 284B80), color-stop(59%, 4271A1));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(180deg, #284B80 10%, #4271A1 59%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(180deg, #284B80 10%, #4271A1 59%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(180deg, #284B80 10%, #4271A1 59%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(180deg, #284B80 10%, #4271A1 59%);/* W3C */
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.iconBoxService img{
+    width: 50px;
+    margin: 1rem auto -1rem auto;
+}
+.iconBoxService p{
+    color: white;
+    line-height: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.modal-header {
+    min-height: 70.43px;
+    border-bottom: none;
+}
+
+#wrapper{
+    width: 100%;
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Services
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Pg Informações
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#boxLeis{
+    width: 100%;
+    height: auto;
+    padding: 1.5rem 0 10rem 0;
+    background-color: #284B8C;
+    /*    -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 90%);*/
+}
+#boxLeis h2{
+    color: white;
+    font-weight: 700;
+}
+#boxLeis p{
+    color: white;
+    font-weight: 400;
+}
+
+a .boxPratInfor{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+img.iconInforPdf{
+    width: 60% !important;
+    text-align: center;
+    margin: 2rem auto 0 auto;
+}
+.nameLaws{
+    color: #4D607F !important;
+    line-height: 1em;
+    margin: -1rem auto 2rem auto;
+    font-weight: 700 !important;
+    font-size: 0.77em;
+    text-align: center;
+}
+a.boxPratInforEffect{
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+a.boxPratInforEffect>.boxPratInfor:hover,a.boxPratInforEffect>.boxPratInfor:active{
+    background-color: silver;
+    color: #FFFFFF;
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+
+}
+
+/*Parametro lista text*/
+ol.a {list-style-type: square;}
+
+
+/*\Parametro lista text*/
+
+#linksRapidos{
+    width: 100%;
+    height: auto;
+    padding: 10rem;
+    background: -moz-linear-gradient(100deg, #4271a1 40%, #284B80 70%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 100deg, color-stop(40%, 4271a1), color-stop(70%, 284B80));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(100deg, #4271a1 40%, #284B80 70%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(100deg, #4271a1 40%, #284B80 70%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(100deg, #4271a1 40%, #284B80 70%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(100deg, #4271a1 40%, #284B80 70%);/* W3C */
+
+}
+
+.btnLinksRapidos{
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1rem;
+    font-size: 1.6em;
+}
+.btnLinksRapidos:hover{
+    color: yellow;
+
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Pg Informações
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Blog
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+main#blogBlocoMain{
+    background-color: #fff;
+    padding: 6.5rem 0;
+}
+aside{
+    background-color: #F1F1F1;
+    padding: 2.6rem 0 0 0;
+    /*    border-left: 1px #f9f9f9 solid;*/
+}
+#search-2{
+    margin: 0 auto 0 auto;
+}
+#space{
+    margin: 20rem;
+}
+.entry-title{
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding: 1rem;
+}
+#bannerBlog{
+    width: 100%;
+    height: auto;
+    margin: 0 auto -3rem auto;
+    padding: 0rem;
+/*    background-image: url('http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg');*/
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#boxRedImgPost{
+    background-color: #E73237;
+    width: 60%;
+    height: auto;
+    overflow: visible;
+    padding: 2rem;
+}
+.imgPostBlog{
+    position: relative;
+    overflow: visible;
+    margin-right: -10rem;
+}
+
+#datePost{
+    background-color: #4D607F;
+    padding: 0 0.5rem 0 0.5rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.9em;
+    height: auto;
+    width: 100%;
+}
+hr{
+    margin: 1rem auto 1rem auto;
+    border: 1px solid #ccc;
+}
+div.boxComentUserPost{
+    background-color: #E2E2E2;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.dadosComentPost{
+    padding: 1rem 1rem 0;
+}
+.postExib,div,h4,h5,p{
+    font-style: italic;
+}
+#filePost{
+    font-style: normal;
+}
+
+#s{
+    height: auto;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.comment-meta{
+    margin: 0 auto;
+    padding: 0;
+}
+a.fn{
+    color: yellowgreen;
+}
+
+.entry-meta{margin-bottom: 1rem; padding: 1rem;}
+
+.edit-link{
+    padding: 1rem;
+    margin: 0 auto 1rem auto;
+}
+.tag-links{
+    padding: 1rem;
+}
+.cat-links{padding: 1rem;}
+
+.comments-link{
+    padding: 1rem;
+}
+
+img.blog-category-blogpacto{
+    width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10rem;
+	background-image: url('http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.news-category-pacto-news{
+    
+}
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Blog
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Noticias
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#bannerNew{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10rem;
+    background-image: url(../img/banner_Blog_Pacto.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#newsDados,div,h4,h5,p{
+    font-style: normal;
+}
+.textnewParm,p{
+    text-align: justify;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Noticias
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Pg Contato
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+#contatoBox{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    background: -moz-radial-gradient(50% 50%, circle cover, #4271A1 0, #284B80 100%);/* FF3.6+ */
+    background: -webkit-radial-gradient(50% 50%, circle cover, #4271A1 0, #284B80 100%);/* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(50% 50%, circle cover, #4271A1 0, #284B80 100%);/* Opera 11.10+ */
+    background: -ms-radial-gradient(50% 50%, circle cover, #4271A1 0, #284B80 100%);/* IE10+ */
+    background: radial-gradient(50% 50%, circle cover, #4271A1 0, #284B80 100%);/* W3C */
+}
+
+#titleContato h2{
+    color: white;
+    font-weight: 700;
+}
+#titleContato p{
+    color: white;
+    font-weight: 400;
+}
+
+.telContato{
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+iframe.mapMatriz{
+    width: 100%;
+    height: 450px;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.textDesciptionMaps p{
+    line-height: 2rem;
+}
+
+.topDescriptionmaps{
+    margin-bottom: 20rem
+}
+
+/*Paramet form contato*/
+#formContato{
+    width: 100%;
+    height: auto;
+    padding: 5rem 0;
+    background-color: white;
+}
+
+#mensagemForm{
+    margin: 2.5rem auto;
+}
+
+#btnSubMitContato{
+    width: 100%;
+    height: auto;
+    /* padding: 5rem 0 21rem; */
+    overflow: hidden;
+    position: relative;
+    line-height: 24rem;
+    margin: 2.5rem auto;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+#btnSubMitContato:hover,#btnSubMitContato:active,#btnSubMitContato:focus{
+    background-color: #245580;
+    color: white;
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Pg Contato
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Pg Login
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+.formAcesso{
+    padding: 1.5em 2em 1.5rem;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 6rem auto;
+    border: rgba(23, 19, 19, 0.95);
+    -webkit-box-shadow: 0px 3px 58px 1px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 3px 58px 1px rgb(0, 0, 0);
+    box-shadow: 0px 3px 58px 1px rgb(0, 0, 0);
+    color:#245580;
+}
+.formAcesso h3{
+    color: #245580;
+    font-weight: 700;
+}
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            \Style Pg Login
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+            footer
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+footer{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0 3rem 0;
+    margin: 0 auto -3rem auto;
+    position: relative;
+}
+
+
+.boxMenuFooter{
+    margin: 0 auto;
+}
+
+
+
+
+
+strong.nameEnd{
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+}
+
+.telAndress{
+    font-weight: 700;
+    font-size: 18px;
+    color: #333333;
+}
+
+.btnIconSocial{
+    background-color: #598CC9;
+    padding: 0.6rem !important;
+    margin-bottom: 1.5rem;
+    color: white;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.copyRight{
+    font-size: 12px;
+}
+
+/*:::::::::::::::::::::::::::::::::::::::::::::::
+           // footer
+:::::::::::::::::::::::::::::::::::::::::::::::*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 16/11/2017, 09:37:24
+    Author     : wemerson
+*/
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+
+    .navbar-nav {
+        float: left;
+        margin: 0rem auto;
+    }
+    .espaceBox {
+        margin-top: -2rem;
+    }
+    li.boxPoliticsPacto {
+        margin: -8rem -2rem -11rem -68px;
+    }
+
+
+
+}
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px)  { 
+
+    li.boxPoliticsPacto {
+        margin: -8rem 4rem 0rem auto;
+    }
+
+}
+
+
+/*:::::::::::::::;;;;;;;;;;;;;;;;;;;;;;;;
+        /iPad in portrait & landscape
+:::::::::::::::::::::::::::::::::::::::*/
+
+
+
+
+
+
+
+/*@media (min-width: 768px) {
+    .navbar-right {
+        float: right!important;
+        margin-right: -15px;
+    }
+}*/
+
+
+/*
+
+@media screen and (min-width: 768px) {
+
+
+
+}
+@media screen and (min-width: 1024px) {
+
+
+}*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #logo {
+        width: 100%;
+        margin: 0 auto -4rem auto;
+    }
+    .acessOnline {
+        background-color: #DF3237 !important;
+        color: white;
+        font-weight: 400;
+        border-radius: 20px;
+        font-size: 0.8em;
+        padding: 0.2rem;
+        margin: -2.5rem auto;
+    }
+
+    .jumbotron {
+        height: auto;
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 0%, 0 0);
+        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 0%, 0 0);
+    }
+    .box01SubImgAlig {
+        margin-right: 0%;
+    }
+    .box01SubImg {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    div.boxImagHome {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        margin: 2rem;
+        /*        padding: 1rem 16rem 0;*/
+    }
+
+    ul,
+    ol {
+        margin-top: 39px;
+        margin-bottom: 10px;
+    }
+    #boxLeis {
+        -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+    }
+    .topDescriptionmaps {
+        margin-bottom: 0rem;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+    .acessOnline {
+        font-size: 11px;
+    }
+    #logo {
+        width: 100%;
+    }
+    .jumbotron {
+        height: auto;
+        -webkit-clip-path: polygon(100% 0, 100% 80%, 30% 90%, 0 80%, 0 0);
+        clip-path: polygon(100% 0, 100% 80%, 30% 90%, 0 80%, 0 0);
+    }
+    div.boxImagHome {
+        -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .carousel-caption {
+        margin: 0 auto;
+    }
+    #btnBannerSlid {
+        margin-left: 20%;
+    }
+    .box01SubImgAlig {
+        margin-right: -10%;
+    }
+    .box01SubImg {
+        -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+
+    #boxLeis {
+        webkit-clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0 100%);
+        clip-path: polygon(0 14%, 100% 0%, 100% 100%, 0 90%);
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .espaceBox {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+
+}
+/*@media (max-width: 1280px) {
+    .espaceBox {
+        margin-top: 0rem;
+    }
+}*/
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        Mobile style
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    #logo {
+        width: 100%;
+        margin: -6rem auto 0rem auto;
+    }
+    .navbar-header {
+        margin: 0 auto;
+    }
+    .navbar-collapse {
+        margin: 13rem auto;
+    }
+    .btnNav {
+        margin: -11rem auto 6rem auto;
+    }
+    .espaceBox {
+        margin-top: 0rem;
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    .jumbotron {
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 100%, 0 0);
+        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 100%, 0 0);
+        height: auto;
+        margin: 1rem auto -4rem auto;
+    }
+    #carousel-example-generic {
+        margin: 12rem auto 1rem auto;
+    }
+    .carousel-caption {
+        margin: 0 auto;
+    }
+    .box01SubImg {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .box01SubImgAlig {
+        margin-right: 0%;
+    }
+    #titleAbout {
+        margin: -3rem auto 5rem auto;
+    }
+    #imgAboutOne {
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        margin-bottom: 1.5rem;
+    }
+    .boxAboutTwo {
+        right: 0rem;
+    }
+    .boxAboutThree {
+        right: 0rem;
+        margin: 0 auto;
+    }
+    .imgAboutTwo {
+        width: 100%;
+        height: auto;
+        float: left;
+        left: 1rem;
+        -webkit-clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+        margin-bottom: 1.5rem;
+    }
+    .nav-tabs>li {
+        float: none;
+        margin: 5rem auto;
+    }
+    div.boxImagHome {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        margin: 2rem;
+    }
+    img.boxUnidPhoto {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        margin-bottom: 1.5rem;
+    }
+    #services {
+        margin: -3rem auto;
+    }
+    #informacoes {
+        margin: -3rem auto 10rem auto;
+    }
+    #boxLeis {
+        -webkit-clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 90%);
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    #logo {
+        width: 100%;
+        margin: -1rem auto 0rem auto;
+    }
+    .navbar-toggle {
+        margin-right: 38px;
+    }
+    .jumbotron {
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 100%, 0 0);
+        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 100%, 0 0);
+        height: auto;
+    }
+    .carousel-caption {
+        margin: 0 auto;
+    }
+    .nav-tabs>li {
+        float: left;
+        margin: 5rem auto;
+    }
+    a.politcMobile {
+        margin: -11rem 61% auto;
+    }
+}
+/*Android mobile*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+    #logo {
+        width: 100%;
+        margin: 0rem auto 0rem auto;
+    }
+    .navbar-header {
+        margin: 0 auto;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: #101010;
+        overflow: scroll;
+    }
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 15px;
+        padding: 9px 10px;
+        margin-top: -50px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        border-radius: 4px;
+    }
+    .carousel-caption {
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+    #logo {
+        width: 100%;
+        margin: 0rem auto 0rem auto;
+    }
+    .jumbotron {
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 100%, 0 0);
+        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 100%, 0 0);
+        height: auto;
+    }
+    .box01SubImgAlig {
+        margin-right: 0%;
+    }
+    .box01SubImg {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+    #logo {
+        width: 100%;
+        margin: 0rem auto 0rem auto;
+    }
+    .carousel-caption {
+        margin: 0 auto;
+    }
+}
+/*::::::::::::::::::::::::::::::::::::::::::::::::::::::
+        Laptop style
+::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: portrait) {
+    .jumbotron {
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 100%, 0 0);
+        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 100%, 0 0);
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .box01SubImgAlig {
+        margin-right: 0%;
+    }
+    .box01SubImg {
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .carousel-caption {
+        margin: 0 auto;
+    }
+}
