@@ -426,7 +426,7 @@ div#titleAPactoDiv{
     font-size: 14px;
     text-align: left;
     list-style: none;
-/*    background-color: #EB3237;*/
+    /*    background-color: #EB3237;*/
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
@@ -1102,6 +1102,10 @@ strong.nameEnd{
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
+.iconSocialBox{
+    margin: 0 auto 2rem auto;
+}
+
 .copyRight{
     font-size: 12px;
 }
@@ -1203,6 +1207,7 @@ and (max-device-width : 1366px)  {
         -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 0%, 0 0);
         clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 0%, 0 0);
     }
+
     .box01SubImgAlig {
         margin-right: 0%;
     }

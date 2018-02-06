@@ -108,9 +108,6 @@
                                                                     </button>
                                                                 </div>
                                                             </div>
-                                                            <script>
-                                                               
-                                                            </script>
                                                         </form>
                                                     </div>
                                                 </div>
