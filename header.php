@@ -25,6 +25,7 @@
         <meta class="foundation-mq">
         <meta name="msapplication-TileColor" content="#003e82">
         <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+        <meta name="google-site-verification" content="cShaHXPXmx2TrH40F8IAUHWzTRd0tlgPO9oD-h8fJM8" />
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
         <link href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css" rel="stylesheet" media="all" />
@@ -97,6 +98,10 @@
                                                                     <div class="help-block with-errors"></div>
                                                                 </div>
                                                                 <div class="clearfix"></div><br>
+                                                                <div class="text-center">
+                                                                    <a href="#" class="clRed btn btn-link">Esqueceu sua senha?</a>
+                                                                </div>
+                                                                <div class="clearfix"></div>
                                                                 <div class="col-md-12 col-sm-12 text-center">
                                                                     <button id="submit" type="submit" class="btn btn-primary btn-lg">
                                                                         Enviar
