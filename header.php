@@ -98,6 +98,10 @@
                                                                     <div class="help-block with-errors"></div>
                                                                 </div>
                                                                 <div class="clearfix"></div><br>
+                                                                <div class="text-center">
+                                                                    <a href="#" class="clRed btn btn-link">Esqueceu sua senha?</a>
+                                                                </div>
+                                                                <div class="clearfix"></div>
                                                                 <div class="col-md-12 col-sm-12 text-center">
                                                                     <button id="submit" type="submit" class="btn btn-primary btn-lg">
                                                                         Enviar

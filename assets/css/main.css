@@ -426,7 +426,7 @@ div#titleAPactoDiv{
     font-size: 14px;
     text-align: left;
     list-style: none;
-    background-color: #EB3237 !important;
+/*    background-color: #EB3237;*/
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
