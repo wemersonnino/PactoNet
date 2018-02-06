@@ -439,15 +439,23 @@ div#titleAPactoDiv{
 #usernameAcessOnLine{
     margin: 1rem auto;
 }
-input[placeholder]#usernameAcessOnLine{
+/*input[placeholder]#usernameAcessOnLine{
+
+}*/
+#usernameAcessOnLine::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #EB3237 !important;
     opacity: 1; /* Firefox */
     font-weight: 700;
 }
-::-ms-input-placeholder#usernameAcessOnLine{
+#usernameAcessOnLine::-moz-placeholder { /* Firefox 19+ */
+    color: #EB3237 !important;
+    opacity: 1; /* Firefox */
+    font-weight: 700;
+}
+#usernameAcessOnLine::-ms-input-placeholder#usernameAcessOnLine{
     color: #EB3237; /* Microsoft Edge */
 }
-:-ms-input-placeholder#usernameAcessOnLine{
+#usernameAcessOnLine:-ms-input-placeholder#usernameAcessOnLine{
     color: #EB3237; /* Internet Explorer 10-11 */
 }
 #submit{
