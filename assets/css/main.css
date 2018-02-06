@@ -439,6 +439,17 @@ div#titleAPactoDiv{
 #usernameAcessOnLine{
     margin: 1rem auto;
 }
+input[placeholder]#usernameAcessOnLine{
+    color: #EB3237 !important;
+    opacity: 1; /* Firefox */
+    font-weight: 700;
+}
+::-ms-input-placeholder#usernameAcessOnLine{
+    color: #EB3237; /* Microsoft Edge */
+}
+:-ms-input-placeholder#usernameAcessOnLine{
+    color: #EB3237; /* Internet Explorer 10-11 */
+}
 #submit{
     width: 100%;
     margin: 1rem auto;
@@ -812,7 +823,7 @@ aside{
     height: auto;
     margin: 0 auto -3rem auto;
     padding: 0rem;
-/*    background-image: url('http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg');*/
+    /*    background-image: url('http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg');*/
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -893,15 +904,15 @@ a.fn{
 
 img.blog-category-blogpacto{
     width: 100%;
-	height: auto;
-	margin: 0 auto;
-	padding: 10rem;
-	background-image: url('http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg');
-	background-repeat: no-repeat;
-	background-position: bottom center;
+    height: auto;
+    margin: 0 auto;
+    padding: 10rem;
+    background-image: url('http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 .news-category-pacto-news{
-    
+
 }
 /*:::::::::::::::::::::::::::::::::::::::::::::::
             \Style Blog
