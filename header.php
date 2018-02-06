@@ -104,7 +104,7 @@
                                                                 <div class="clearfix"></div>
                                                                 <div class="col-md-12 col-sm-12 text-center">
                                                                     <button id="submit" type="submit" class="btn btn-primary btn-lg">
-                                                                        Enviar
+                                                                        ACESSAR
                                                                     </button>
                                                                 </div>
                                                             </div>
