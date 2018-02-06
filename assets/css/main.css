@@ -438,13 +438,16 @@ div#titleAPactoDiv{
 
 #usernameAcessOnLine{
     margin: 1rem auto;
+    color: #EB3237;
+    opacity: 1;
+    font-weight: 700;
 }
-/*input[placeholder]#usernameAcessOnLine{
-
-}*/
+#usernameAcessOnLine::-moz-placeholder-shown{
+    color: #EB3237 !important;
+}
 #usernameAcessOnLine::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #EB3237 !important;
-    opacity: 1; /* Firefox */
+    opacity: 1;
     font-weight: 700;
 }
 #usernameAcessOnLine::-moz-placeholder { /* Firefox 19+ */
