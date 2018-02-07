@@ -33,8 +33,13 @@
 <?php get_header(); ?> ?>
 
 <main id="blogBlocoMain" class="col-lg-8 col-md-8 col-sm-12"  tabindex="-1" role="main">
-    <header id="bannerBlog">
-        <img class="img-responsive wp-image-721 size-full aligncenter" src="http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg" alt="" width="1905" height="309" />
+    <header>
+        <!--<img class="img-responsive wp-image-721 size-full aligncenter" src="http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg" alt="" width="1905" height="309" />-->
+        <?php echo '<header id="bannerBlog">
+            <div class="text-left">
+                <h2 class="ft4 fB clWhite">Blog</h2>
+            </div>
+        </header>'; ?>
     </header> <!-- /Banner blog -->
     <?php
     // Start the Loop.

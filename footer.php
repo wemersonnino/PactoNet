@@ -73,10 +73,10 @@
                         <div class="col-md-4 col-sm-12"></div>
 
                         <div class="iconSocial">
-                            <div class="col-md-1 col-sm-3"><a href="#!" class="btn btnIconSocial"><i class="fa fa-facebook-official"></i></a></div>
-                            <div class="col-md-1 col-sm-3"><a href="#!" class="btn btnIconSocial"><i class="fa fa-twitter"></i></a></div>
-                            <div class="col-md-1 col-sm-3"><a href="#!" class="btn btnIconSocial"><i class="fa fa-linkedin"></i></a></div>
-                            <div class="col-md-1 col-sm-3"><a href="#!" class="btn btnIconSocial"><i class="fa fa-pinterest"></i></a></div>
+                            <div class="col-md-1 col-sm-3 iconSocialBox"><a href="#!" class="btn btnIconSocial"><i class="fa fa-facebook-official"></i></a></div>
+                            <div class="col-md-1 col-sm-3 iconSocialBox"><a href="#!" class="btn btnIconSocial"><i class="fa fa-twitter"></i></a></div>
+                            <div class="col-md-1 col-sm-3 iconSocialBox"><a href="#!" class="btn btnIconSocial"><i class="fa fa-linkedin"></i></a></div>
+                            <div class="col-md-1 col-sm-3 iconSocialBox"><a href="#!" class="btn btnIconSocial"><i class="fa fa-pinterest"></i></a></div>
                         </div>
                         <!-- /icons sociais -->
                         <div class="col-md-4 col-sm-12"></div>

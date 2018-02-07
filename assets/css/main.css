@@ -426,7 +426,7 @@ div#titleAPactoDiv{
     font-size: 14px;
     text-align: left;
     list-style: none;
-/*    background-color: #EB3237;*/
+    /*    background-color: #EB3237;*/
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
@@ -461,6 +461,25 @@ div#titleAPactoDiv{
 #usernameAcessOnLine:-ms-input-placeholder#usernameAcessOnLine{
     color: #EB3237; /* Internet Explorer 10-11 */
 }
+#inputSenhaAcessOnLine{
+    color: #EB3237;
+    opacity: 1;
+    font-weight: 700;
+}
+#inputSenhaAcessOnLine::-moz-placeholder-shown{
+    color: #EB3237 !important;
+}
+#inputSenhaAcessOnLine::-moz-placeholder { /* Firefox 19+ */
+    color: #EB3237 !important;
+    opacity: 1; /* Firefox */
+    font-weight: 700;
+}
+#inputSenhaAcessOnLine::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #EB3237 !important;
+    opacity: 1;
+    font-weight: 700;
+}
+
 #submit{
     width: 100%;
     margin: 1rem auto;
@@ -833,8 +852,17 @@ aside{
     width: 100%;
     height: auto;
     margin: 0 auto -3rem auto;
-    padding: 0rem;
-    /*    background-image: url('http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg');*/
+    padding: 1.5rem 0 0.1rem 0;
+    background-image: url('http://pacto.inf.br/wp-content/uploads/2018/01/blog-pacto-topo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#bannerNews{
+    width: 100%;
+    height: auto;
+    margin: 0 auto -3rem auto;
+    padding: 1.5rem 0 0.1rem 0;
+    background-image: url('http://localhost/PactoNet/wp-content/uploads/2018/01/banner_Blog_Pacto-1.jpg');
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -1102,6 +1130,10 @@ strong.nameEnd{
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
+.iconSocialBox{
+    margin: 0 auto 2rem auto;
+}
+
 .copyRight{
     font-size: 12px;
 }
@@ -1203,6 +1235,7 @@ and (max-device-width : 1366px)  {
         -webkit-clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 0%, 0 0);
         clip-path: polygon(100% 0, 100% 100%, 0% 100%, 0 0%, 0 0);
     }
+
     .box01SubImgAlig {
         margin-right: 0%;
     }
