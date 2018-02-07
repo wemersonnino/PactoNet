@@ -33,9 +33,15 @@
 <?php get_header(); ?> ?>
 
 <main id="content"  tabindex="-1" role="main">
-    <header id="bannerBlog">
-        <img class="img-responsive wp-image-721 size-full aligncenter" src="http://pacto.inf.br/wp-content/uploads/2018/01/news-pacto-topo.jpg" alt="" width="1905" height="309" />
+    <header>
+        <!--<img class="img-responsive wp-image-721 size-full aligncenter" src="http://pacto.inf.br/wp-content/uploads/2018/01/news-pacto-topo.jpg" alt="" width="1905" height="309" />-->
+        <?php echo '<header id="bannerNews">
+            <div class="text-left">
+                <h2 class="ft4 fB clWhite">Notícias</h2>
+            </div>
+        </header>'; ?>
     </header> <!-- /Banner blog -->
+    
     <?php
     // Start the Loop.
     while (have_posts()) : the_post();
@@ -46,7 +52,7 @@
          * (where ___ is the post format) and that will be used instead.
          */
         get_template_part('content', get_post_format());
-
+        echo '<div class="container"><div class="col-md-2 col-sm-12 text-center"><a id="submit" type="submit" class="btn btn-link btn-sm" href="http://localhost/PactoNet/noticias/" onclick="http://localhost/PactoNet/noticias/">Voltar</a></div></div>';
         // If comments are open or we have at least one comment, load up the comment template.
         if (comments_open() || get_comments_number()) :
             comments_template();
